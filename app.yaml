@@ -1,7 +1,0 @@
-application: epa-lema-search
-version: 1
-runtime: php55a
-pi_version: 1
-handlers:
-- url: /.*
-  script: public/index.php
