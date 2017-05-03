@@ -1,4 +1,4 @@
-# Recipe Search
+# EPA Ireland LEMA Search
 
 This sample application demonstrates:
 * Searching for recipes by keywords, *and*
