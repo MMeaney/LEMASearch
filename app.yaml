@@ -1,4 +1,4 @@
-application: LEMASearch
+application: epa-lema-search
 version: 1
 runtime: php55a
 pi_version: 1
