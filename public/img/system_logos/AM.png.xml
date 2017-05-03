@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-16" ?>
+<Export>
+    <FileInfo>
+        <Properties>
+            <tag>/File/Main/FilePath</tag>
+            <type>ascii</type>
+            <count>56</count>
+            <value>C:\Dev\elastic\projects\search\public\img\systems\AM.png</value>
+        </Properties>
+        <Properties>
+            <tag>/File/Main/FileName</tag>
+            <type>ascii</type>
+            <count>6</count>
+            <value>AM.png</value>
+        </Properties>
+        <Properties>
+            <tag>/File/Main/FileLocation</tag>
+            <type>ascii</type>
+            <count>50</count>
+            <value>C:\Dev\elastic\projects\search\public\img\systems\</value>
+        </Properties>
+        <Properties>
+            <tag>/File/Main/FileExtension</tag>
+            <type>ascii</type>
+            <count>3</count>
+            <value>png</value>
+        </Properties>
+        <Properties>
+            <tag>/File/Main/FileSize</tag>
+            <type>ulong</type>
+            <count>1</count>
+            <value>7577</value>
+        </Properties>
+        <Properties>
+            <tag>/File/Main/DateCreation</tag>
+            <type>sysdatetime</type>
+            <count>1</count>
+            <value>14.11.2016 10:24:39</value>
+        </Properties>
+        <Properties>
+            <tag>/File/Main/DateLastAccess</tag>
+            <type>sysdatetime</type>
+            <count>1</count>
+            <value>14.11.2016 11:58:42</value>
+        </Properties>
+        <Properties>
+            <tag>/File/Main/DateLastWrite</tag>
+            <type>sysdatetime</type>
+            <count>1</count>
+            <value>14.11.2016 11:58:42</value>
+        </Properties>
+    </FileInfo>
+    <ExifInfo>
+        <Properties>
+            <tag>/Exif/Image/Description</tag>
+            <type>ascii</type>
+            <count>9</count>
+            <value>AM Module</value>
+        </Properties>
+        <Properties>
+            <tag>/Exif/Image/Model</tag>
+            <type>ascii</type>
+            <count>56</count>
+            <value>https://lema.edenireland.ie/LicenceSelector/home/landing</value>
+        </Properties>
+        <Properties>
+            <tag>/Exif/Image/Copyright</tag>
+            <type>ascii</type>
+            <count>20</count>
+            <value>Authorisation Module</value>
+        </Properties>
+        <Properties>
+            <tag>/Exif/Photo/UserComment</tag>
+            <type>undefined</type>
+            <count>57</count>
+            <value>Manage licences and authorisations and access LMA</value>
+        </Properties>
+        <Properties>
+            <tag>/Exif/Thumbnail/Compression</tag>
+            <type>ushort</type>
+            <count>1</count>
+            <value>6</value>
+        </Properties>
+    </ExifInfo>
+    <IptcInfo>
+        <Properties>
+            <tag>/Iptc/Application/Byline</tag>
+            <type>ascii</type>
+            <count>29</count>
+            <value>edenenforcementsupport@epa.ie</value>
+        </Properties>
+        <Properties>
+            <tag>/Iptc/Application/Headline</tag>
+            <type>ascii</type>
+            <count>21</count>
+            <value>ORPedensupport@epa.ie</value>
+        </Properties>
+        <Properties>
+            <tag>/Iptc/Application/ObjectName</tag>
+            <type>ascii</type>
+            <count>37</count>
+            <value>https://www.edenireland.ie/contact-us</value>
+        </Properties>
+    </IptcInfo>
+    <XmpInfo />
+</Export>

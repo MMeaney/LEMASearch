@@ -1,0 +1,1020 @@
+@CHARSET "UTF-8";
+
+/* For Static Footer */
+{
+  	margin: 0;
+}
+
+html, body {
+  	height: 100%;
+    /*background-image: url('../img/illustration.jpg');*/
+  	/*background-color: rgb(236, 239, 241);*/
+  	/*background-color: #e7f5fe;*/
+  	background-color: #FDFDFD;
+  	word-wrap: break-word;
+}
+
+.container {
+  	width: 95%;
+}
+
+#container70 {
+  	width: 70%;
+}
+.center {
+    margin: 0 auto 14em;
+}
+
+.wrapper {
+  	min-height: 100%;
+  	height: auto !important;
+  	height: 100%;
+ 	margin: 0 auto -4em;
+ 	/*transition: all 0s ease;*/
+}
+
+#wrapper-index {
+	text-align: center;
+	display: flex;
+	/*align-items: center;*/	
+}
+
+
+.pagination {
+  margin: 0 0 15px 0;
+  border-radius: 4px;
+}
+
+
+/* Hide IE Search bar clear icon  */
+::-ms-clear {
+  	display: none;
+}
+
+#searchClear {
+  	cursor: pointer;
+  	color: #ccc;
+}
+
+.push {
+  	height: 4em;
+}
+  
+.footercopyright {
+  	height: 4em;
+}
+  
+.footercopyrightdivcss {
+  	height: 4em;
+  	background-color: #F8F8F8;
+  	border-color: #E7E7E7;
+  	border-style: solid;
+  	border-width: 1px 0px 0px 0px;
+  	text-align: center;
+  	vertical-align: middle;
+  	font-size: 10pt;
+}
+  
+.linkfile {
+  	color: green;
+}  
+  
+.linkfile: followed {
+  	color: green;
+}
+
+label {
+    cursor: pointer;
+}
+
+
+
+
+.divIndexTitle {
+	/*font-family: 'Roboto', 'Arimo', Arial, Helvetica, sans-serif;*/ 
+	font-family: 'Roboto'; 
+	font-size: 50px;
+    font-weight: 300;
+	letter-spacing:-3px;
+    color: #007DAA;
+    text-align: left;
+	vertical-align: top;
+	padding: 0px;
+	margin-top: 175px;
+}
+
+
+#hrIndexVerticalLine {
+	display: block;
+	width: 2px;
+    border: 0;
+    border-top: 120px solid #007DAA;
+	size: 500px;
+	color: #007DAA;	
+    margin: 1em 0;
+    padding: 1px;
+    height: 1px;
+    margin-top: 0px;
+}
+
+
+#divIndexTitleParent {
+	margin-top: 22px;
+}
+
+.divIndexTitleChild {
+	margin-top: -32px;
+}
+
+
+
+
+
+
+
+/*
+.divIndexTitleFloatLeft {	
+	float: left;
+	text-align:right;
+}
+
+.divIndexTitleFloatRight {
+	float: right;
+}
+*/
+/*
+.divIndexTitleVerticalLine {
+	border-left: thick solid #007DAA;
+	margin-left: 5px;
+	padding: 10px;
+	width: 100%;
+}
+*/
+
+
+
+
+.divcontainleftright {
+  	display: flex; 
+}
+  
+.divleftrefine {
+  	width: 250px;
+  	margin-right: 25px;
+}
+  
+.divright {	
+  	flex-grow: auto;
+}
+
+
+.divFlexLeftRight {
+  	display: flex; 
+}
+  
+.divLeftFlex {	
+  	flex-grow: 1;  	
+  	width: 70%;
+}
+  
+.divRightSnippet {	
+  	margin-left: 25px;
+  	/*width: 1200px;*/
+  	width: 30%;
+}
+
+.imgSnippetLogoTopRight {
+	margin-top: -3px;
+	margin-right: -7px;
+	height: 50px;
+}
+
+#divSpacer {
+	height: 5px;
+}
+
+/*
+body::-webkit-scrollbar {
+    width: 1em;
+}
+*/
+#divRefinePanelHeading {
+	padding: 6px 6px 8px 8px; 
+	margin:  0px 0px 0px 0px;
+}
+
+#divRefinePanelFooter {
+	padding: 4px 4px 2px 8px; 
+	margin:  0px 0px 0px 0px;
+}
+
+#divRefinePanelFooterInfo {
+	padding: 4px 4px 2px 8px; 
+	margin:  0px 0px 0px 0px;
+	background-color: #d9edf7;
+}
+
+#divRefinePanelFooterSuccess {
+	padding: 4px 4px 2px 8px; 
+	margin:  0px 0px 0px 0px;
+	background-color: #dff0d8;
+}
+
+#divRefinePanelBody {
+	padding: 0px 0px 0px 4px; 
+	margin:  0px 0px 0px 4px;
+}
+
+#divRefinePanelBodyNarrowLeftRight {
+	padding: 0px 4px 0px 4px; 
+	margin:  0px 4px 0px 4px;
+}
+
+#divPanelRefineResultsSpacer {
+	padding: 4px 0px 0px 0px; 
+	margin:  4px 0px 0px 0px;
+}
+
+.parContent, .divContent {
+  	display: table;
+  	background: rgba(248, 248, 248, 0.4);
+  	margin-right: 10px;
+  	margin-left: 10px;
+  	padding: 0.2cm;
+}
+
+div.pika-label:hover {
+	color:#ff9705;
+} 
+
+.navbar {
+	min-height: 28px !important; 
+}
+
+/*
+ * Remove padding in from form in collapsed/mobile mode
+ */
+
+@media(max-width:768px) {
+    .navbar-form {
+        padding-top: 0;
+        padding-bottom: 0;
+        border: 0;
+    }
+    .navbar-form .form-group {
+        margin-bottom: 0;
+    }
+}
+
+/* END: Remove padding in from form in collapsed/mobile mode */
+
+/*
+ * Font style for signed in user name
+ */
+#navSignedInUser {
+	font-size: 14px;
+	font-style: italic;
+	color: #337AB7;
+	margin-left: 1.4em;
+}
+
+/* END: Font style for signed in user name */
+
+
+/*
+ *  Results Layout
+ * 
+ */
+
+em {
+	font-weight: bold
+}
+
+#imgIconURL32 {
+	margin: auto;
+    text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F9C0A;
+	text-shadow: 2px 2px #DDDDDD;
+	/*font-style: italic;*/
+	/*color: #008000;
+    background-color:#5BC0DE*/
+}
+
+#resultsMainTitle {
+	font-size: 18px;
+	font-weight: bold;
+	/*color: #FFFFFF;*/	/*white*/
+	/*color: #999999;*/
+}
+
+#spanResultsFilename {
+	font-size: 20px;
+	font-weight: bold;
+	color: #337AB7;
+	vertical-align: bottom;
+}
+
+
+#spanRelevantDocument {
+	font-family: 'Roboto', 'Arimo', Arial, Helvetica, sans-serif;    
+	font-size: 13px;
+    font-weight: 200;
+    color: #1990B8;
+	letter-spacing: -1x;
+	vertical-align: top;
+	margin-top: -12px;
+}
+
+.checkRelevantDocument {
+	top: -5px;
+}
+
+#labelRelevantDocument {
+	position: relative;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+#labelRelevantDocument:hover {
+  	box-shadow: 0 10px 6px -6px #F2F2F2;
+	font-style:italic;
+	/*background-color: #F8F8F8;*/
+}
+
+#thTableResults, #tdTableResults {
+	padding-left: 10px;
+	padding-top: 1px;
+    text-align: left;
+}
+
+#spanResultsTitle {
+	font-size: 16px;
+	font-weight: 600;
+	color: #212121;
+	vertical-align: bottom;	
+	/*letter-spacing: -0.5px;*/
+}
+
+#spanResultsSubDescription {
+	font-size: 12px;
+	font-weight: 300;
+	color: #4d4d4d;
+	vertical-align: bottom;
+}
+
+#spanResultsBodyTitle {
+	font-size: 13px;
+	font-weight: 600;
+	color: #4d4d4d;
+	vertical-align: bottom;
+}
+
+#spanResultsBodyText {
+	font-size: 14px;
+	font-weight: 300;
+	color: #4d4d4d;
+	vertical-align: bottom;
+}
+
+#wellResultContent {
+   background-color: rgba(245, 245, 245, 0.2);
+   width: 85%;
+}
+
+
+#tableWebResults {
+	border-collapse:collapse; 
+	table-layout:fixed; 
+	/*width:310px;*/
+}
+
+/*
+li:hover { 
+	background-color: #F8F8F8 !important; 
+}
+*/
+
+/*
+label:hover { 
+	background-color: #F8F8F8 !important; 
+}
+*/
+
+#liResults,
+*[id^='liResults'],
+#divPanelResultsMain,
+#divPanelSnippet {
+	/*background-image: url('../img/illustration.jpg');*/
+	/*background-color: #e7f5fe;*/
+  	/*box-shadow: 0 10px 6px -6px #f2f2f2;*/
+  	box-shadow: 0 8px 6px -6px #f2f2f2;
+}
+
+#divPanelResultsMainHeading {
+	background-color: #FFFFFF;/*#FCFCFC;*/
+}
+
+#divPanelResultsMainBody {
+	padding-top: 	4px;
+	margin-top: 	4px;
+	padding-bottom: 4px;
+	margin-bottom: 	4px;
+	/*
+	padding: 0px 0px 0px 4px; 
+	margin:  0px 0px 0px 4px;
+	*/
+}
+
+
+#divPanelRefineFileshareAuthor:hover, 
+#divPanelRefineFileshareFileType:hover, 
+#divPanelRefineFileshareFileSize:hover, 
+#divPanelRefineFileshareFileCreated:hover, 
+#divPanelRefineFileshareMatchPhrase:hover 
+{
+  	box-shadow: 0 10px 6px -6px #F2F2F2;
+}
+
+#liResults:hover, 
+#divPanelSnippet:hover {
+  	/*box-shadow: 0 15px 6px -6px #F2F2F2;*/
+  	box-shadow: 0 12px 6px -6px #F2F2F2;
+  	border-color: #A9A9A9;
+}
+
+#divPanelResultsMain:hover {
+  	/*box-shadow: 0 15px 6px -6px #F2F2F2;*/
+  	/*box-shadow: 0px 1px 3px 0px rgb(140,140,140);*/
+  	
+  	/*box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);*/
+	
+	box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.1);
+  	border-color: #A9A9A9;
+	/*border-color: #999999;*/
+}
+
+
+#divPanelResultsMainHeading:hover{
+	background-color: #F5F5F5;
+  	border-top-color: #F1F1F1;
+}
+
+#inputSearchString:hover {
+	box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+#inputSearchButton:hover {
+	text-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+/*
+ *  Snippets Layout
+ * 
+ */
+
+#thTableSnippet, #tdTableSnippet {
+	padding-left: 10px;
+	padding-bottom: 2px;
+    text-align: left;
+}
+
+#divPanelSnippetHeading {
+	background-color: #FFFFFF;
+}
+
+#divPanelSnippetFooter {
+	background-color: #FFFFFF;/*#FCFCFC;*/
+}
+
+#spanSnippetTitle, #divPanelSnippetHeadingWiki {
+	font-size: 16px;
+	font-weight: 600;
+	color: #212121;
+	vertical-align: bottom;
+}
+
+#spanSnippetSubDescription {
+	font-size: 12px;
+	font-weight: 300;
+	color: #4d4d4d;
+	vertical-align: bottom;
+}
+
+#spanSnippetBodyTitle {
+	font-size: 13px;
+	font-weight: 600;
+	color: #4d4d4d;
+	vertical-align: bottom;
+}
+
+#spanSnippetBodyText, #spanPanelSnippetBodyTextWiki {
+	font-size: 13px;
+	font-weight: 300;
+	color: #4d4d4d;
+	vertical-align: bottom;
+}
+
+#divSnippetMoreResultsWikiItem:hover {
+	background-color: #F1F1F1;
+}
+
+.form-control-clear {
+  	z-index: 10;
+  	pointer-events: auto;
+  	cursor: pointer;
+}
+
+#spanNavigation {
+	font-size: 10pt;
+	display: inline-block;
+	height: 25px;
+	margin-top: 2px;
+}
+
+#spannumresults {
+	font-size: 10pt;
+	display: inline-block;
+	height: 25px;
+	margin-top: 2px;
+}	
+
+#spanMetaTypeBold {
+	font-size: 10pt;
+	font-weight:bolder;
+	color: #212121;
+	display: inline-block;
+}
+
+#spanMetaContent {
+	font-size: 10pt;
+	font-weight: 300;
+	color: #212121;
+	display: inline-block;
+}	
+
+#spanRefine {
+	font-size: 10pt;
+	font-weight: normal;
+	color: #A9A9A9;
+	display: inline-block;
+}
+
+#spanToggleRefine {
+	font-size: 10pt;
+	font-weight: normal;
+	color: #767676;
+	display: inline-block;
+}	
+
+#spanToggleRefine:hover {
+	font-style:italic;
+}
+
+#labelRefine {
+	font-size: 10pt;
+	font-weight: normal;
+	color: #337AB7;
+	display: inline-block;
+	height: 14px;
+	/*position: relative;*/
+	/*vertical-align: middle;*/
+	/*bottom: 1px;*/
+}
+
+#labelRefine:hover {
+	background-color: #F8F8F8;
+}
+
+.collapse.in, .collapse{
+}
+
+#divRefineFileshareAuthor {
+  	overflow-y: scroll;
+  	overflow-x: hidden;
+}
+
+
+#divRefineFileshareApplication {
+  	overflow-y: scroll;
+  	overflow-x: hidden;
+}
+
+#divRefineFileshareFileType {
+    height: 110px;
+  	overflow-y: scroll;
+  	overflow-x: hidden;
+}
+
+.divFileShareResultsMain {	
+	z-index: 1;
+	opacity: 1;
+}
+
+#tdResultsPadLeft {
+	padding-left: 8px;
+}
+
+
+
+/*
+ *  LEAP Report Viewer
+ */
+
+#spanLeapViewerTitle {
+	font-size: 30px;
+	font-weight: bold;
+	color: #5784a2;
+	line-height: 70px;
+}
+
+#imgLeapLogo {
+	height: 95px;
+}
+
+#leapReportDelimiter {
+	background-color: #f2f2f2;
+	font-weight: 600;
+	padding: 4px 4px 4px 4px;
+}
+
+#tdLEAPRegNo {
+	width: 70px;
+}
+#tdLEAPFileType {
+	width: 200px;
+}
+
+/* */
+#tdLEAPFilename {
+	width: 320px;
+}
+
+#tdLEAPOrganisation {
+	width: 240px;
+}
+/* */
+#tdLEAPDate {
+	width: 160px;
+}
+
+#tdLEAPDocClassification {
+	width: 80px;
+}
+
+#tdLEAPDocCategory {
+	width: 140px;
+}
+
+#tdLEAPDocSubCategory {
+	width: 180px;
+}
+
+
+
+/*
+ *  DataTables CSS Override
+ */
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding : 0px;
+    margin-left: 0px;
+    display: inline;
+    border: 0px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border: 0px;
+}
+
+table.dataTable thead th {
+	border-bottom: 0;
+}
+table.dataTable tfoot th {
+	border-top: 0;
+}
+
+
+tfoot input {
+	width: 100%;
+	padding: 3px;
+	box-sizing: border-box;
+}
+
+
+tfoot {
+    display: table-header-group;
+}
+
+#THeadSearch {
+	margin-bottom:-50px;
+}
+
+#TFootSearch {
+	margin-top:-50px;
+}
+
+#inputTFootSearch {
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #DCDCDC;
+	margin-top:-50px;
+	border-top:#1990B8;
+	border-left:#1990B8;
+}
+
+#tableCRMDataDictionary
+{
+	width: 100%;
+	word-wrap: break-word;
+	/*table-layout: fixed;*/
+}
+
+
+/*
+ *  Filtered Tables
+ */
+
+
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+
+
+/*
+ * Overlay for low opacity effect on background File Icons
+ */
+
+.divFileShareBackgroundLayer{
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/*
+ * Styling for labels displaying applied filters in Fileshare Refine
+ */
+
+.tag {
+  font-size: 11px;
+  padding: .2em .2em .3em .3em;
+  margin: .2em .2em .2em .2em;
+}
+.tag a {
+  color: #BBBBBB;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.tag a:hover {
+  opacity: 1
+}
+.tag .remove {
+  vertical-align: bottom;
+  top: 0;
+}
+.tag a {
+  margin: 0 0 0 .2em;
+}
+.tag a .glyphicon-white {
+  color: #FFFFFF;
+  margin-bottom: 2px;
+}
+
+/* END: Filter label styling */
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }
+
+
+/*
+ * Style for Refine Filter Show/Hide (Not Used?)
+ */
+.showAuthor { 
+	display: inline-block;
+    cursor: pointer;
+   	border: none;
+	background-color: #5bc0de;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+	padding: 2px 6px;
+    margin: 9px 0px 0px 0px;
+    border-radius: 3px;
+}
+
+.showAuthor:hover {
+    cursor: pointer;
+	background-color: #31b0d5;
+  	box-shadow: 1px 1px 1px 1px #f2f2f2;
+}
+
+.show { 
+    display: inline-block;
+    cursor: pointer;
+   	border: none;
+	background-color: #5bc0de;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+	padding: 2px 6px;
+    text-decoration: none;
+    margin: 4px 0px;
+    border-radius: 4px;
+    /*border-color: #46b8da;*/
+  }
+
+.show:hover {
+    cursor: pointer;
+}
+
+.divRefineFileshareAuthor div: nth-child(n+6) {
+    display: none;
+}
+
+/* END: Style for Refine Filter Show/Hide (Not Used?) */
+
+.expand, .expand_hide, .expand_show {
+	font-size: 10pt;
+	color: #337ab7;
+    /*padding: 2px;*/
+    cursor: pointer;	font-size: 10pt;
+	display: inline-block;
+	/*height: 25px;
+	margin-top: 10px;*/
+}
+.expand:hover {
+	text-decoration: underline;
+}
+
+.contentfull {
+    display: none;
+    padding : 5px;
+}
+  
+.imgThumb {
+  	max-width: 500px;
+  	height: auto;
+}
+
+.imgFull {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+pre {
+	padding: 0.9em 0.5em 0.3em 0.7em;
+	border-left: 11px solid #ccc;
+	overflow: auto;
+	width: 93%;
+	display: block;
+    font-family: arial;
+    white-space: pre-wrap;
+    word-wrap: break-word;   
+}
+
+#preNonCode {
+	padding: 0.9em 0.5em 0.3em 0.7em;
+	border-left: 11px solid #ccc;
+	overflow: auto;
+	width: 93%;
+	display: block;
+    font-family: arial;
+    background-color: #eee;
+    color: black;
+    white-space: pre-wrap;
+    word-wrap: break-word;   
+}
+
+.pretty-pre {
+	padding-top: 20px;
+	overflow: hidden;
+	width: 70%;
+	transition: width 0.9s;
+}
+	
+.pretty-pre.expand:hover {
+	position: relative;
+	width: 100%;
+	z-index: 99;
+	transition: width 0.9s;
+}	
+  
+/* Override Bootstrap horizontal Bar -- For 'Refine' table*/
+.hr {
+  	margin-bottom: 5px !important; 
+  	margin-top: 5px !important;
+}
+  
+
+
+/*
+ *  SearchKit
+ */
+
+.search__query {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 41px;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+.search .search-box {
+  height: 40px;
+  flex: 1;
+}
+.search .search-box__loader {
+  display: none;
+}
+.search__results {
+  position: absolute;
+  top: 41px;
+  left: 0;
+  right: 0;
+}
+.search .hits-hit {
+  text-align: center;
+}
+.search .hits-hit a {
+  text-decoration: none;
+}
+.search .hits-hit__poster {
+  max-width: 100px;
+  max-height: 140px;
+  display: inline-block;
+}
+.search .hits-hit__title {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+
+/*
+ * 	CSS for MicroData
+ */
+
+[itemprop="itemreviewed"],
+[itemprop="reviewer"],
+[itemprop="dtreviewed"],
+[itemprop="address"],
+[itemprop="summary"],
+[itemprop="description"] {
+  	color: #143196;
+  	font-family: 'Roboto Slab', serif;
+  	line-height: 1.2;
+  	margin: 0 0 15px;
+  	margin: 0 0 1.5rem;
+}
+
+[itemprop="itemreviewed"] {
+  	font-weight: 400;
+  	font-size: 20px;
+  	font-size: 2.0rem;
+}
+
+[itemprop="reviewer"], 
+[itemprop="dtreviewed"], 
+[itemprop="summary"],
+[itemprop="description"] {
+  	font-weight: 300;
+  	font-size: 16px;
+  	font-size: 1.6rem;
+}
